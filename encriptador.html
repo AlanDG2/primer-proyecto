@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Encriptador | Oracle+AluraLATAM</title>
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+    <script src="./js/encriptador.js"></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="main">
+        
+        <section class="contain">
+            <div class="headerImg">
+                <img src="./img/logo.svg" alt="Logo de Alura">
+            </div>
+            <section class="textSection">
+           
+                <textarea name="text_in_area" id="texto" placeholder="Ingrese texto aqui" required></textarea>
+                <div class="textAlert">
+                    <div class="info">
+                        <img src="./img/exclamacion.svg" alt="">
+                        <p id="alert">Solo letras minúsculas y sin acentos</p>
+                    </div>
+                    <div class="buttons">
+                        <input id="botonEncriptar" type="button" value="Encriptar">
+                        <input id="botonDesencriptar" type="button" value="Desencriptar">
+                    </div>
+                </div>
+              
+               
+              
+            </section>
+            <div class="decrypt">
+                <div id="textoEncriptado"></div>
+                <button id="copiar">Copiar</button>
+            </div>
+           
+           
+
+
+        </section>
+        
+      
+    </main>
+   
+</body>
+</html>
